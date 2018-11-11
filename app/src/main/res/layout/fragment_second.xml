@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".second">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_marginTop="70dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:background="@drawable/facebook"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="80dp"
+            android:text="School Me Too"
+
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#2699fb"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="47dp"
+            android:fontFamily="casual"
+            android:text="전국교직원노동조합"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:textColorLink="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:background="@drawable/twitter"/>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:text="School Me Too"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="한국 성폭력 상담소"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#2699fb"
+            />
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@drawable/call"/>
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:text="02-338-5801~2"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#505050"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:text="국가인권위원회"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#2699fb"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:text="www.hanmanrights.go.kr"
+            android:textAlignment="center"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#505050"
+            android:textSize="20sp"/>
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/world"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>

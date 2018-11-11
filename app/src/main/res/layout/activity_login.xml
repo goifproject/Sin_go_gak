@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#29ffffff"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#2699fb">
+    </LinearLayout>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="welcome!"
+        android:textSize="50sp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:id="@+id/id_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/dg_login"
+        android:hint="    email@example.com "
+        android:textColorHint="#2699fb"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/password_text"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/dg_login"
+        android:hint="           ● ● ● ● ● ● ●"
+        android:lineSpacingExtra="1sp"
+        android:password="true"
+        android:textColorHint="#2699fb"
+        android:textSize="7sp" />
+
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/divider">
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/log_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/dg_log_btn"
+        android:text="Continue"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:text="회원가입"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:text="혹시 비밀번호를 잊으셨나요?"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"/>
+
+</RelativeLayout>
